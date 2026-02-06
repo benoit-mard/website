@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web4All - Postuler</title>
+  <meta name="description" content="Postuler à une offre Web4All.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 style="margin:0;">Web4All</h1>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="offres.html">Offres</a>
+        <a href="postuler.html">Postuler</a>
+        <a href="mentions.html">Mentions légales</a>
+        <a href="cookies.html">Cookies</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="box">
+      <h2>Postuler à une offre</h2>
+
+      <form action="#" method="post">
+        <div class="line">
+          <label for="nom">Nom</label><br>
+          <input id="nom" name="nom" type="text">
+        </div>
+
+        <div class="line">
+          <label for="email">Email</label><br>
+          <input id="email" name="email" type="email">
+        </div>
+
+        <div class="line">
+          <label for="offre">Choix de l'offre</label><br>
+          <select id="offre" name="offre">
+            <option value="">Choisir</option>
+            <option>Stage - Assistant réseau</option>
+            <option>Alternance - Conduite de travaux</option>
+          </select>
+        </div>
+
+        <div class="line">
+          <label for="msg">Message</label><br>
+          <textarea id="msg" name="msg" rows="5"></textarea>
+        </div>
+
+        <div class="line">
+          <input type="checkbox" id="ok" name="ok">
+          <label for="ok">J'accepte l'utilisation de mes données</label>
+        </div>
+
+        <button class="btn" type="submit">Envoyer</button>
+      </form>
+
+      <div class="box" style="background:#fff7d6;border:1px dashed #999;">
+        <p style="margin:0;">Ce site utilise des cookies</p>
+        <button class="btn" type="button">J'accepte</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p style="margin:0;">© 2026 Web4All</p>
+      <p style="margin:0;"><a href="mentions.html">Mentions légales</a> - <a href="cookies.html">Cookies</a></p>
+    </div>
+  </footer>
+</body>
+</html>

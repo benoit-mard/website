@@ -1,0 +1,82 @@
+body{
+  font-family: Arial;
+  margin: 0;
+  background: #eeeeee;
+}
+
+header{
+  background: #222;
+  color: white;
+  padding: 10px;
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+.box{
+  background: white;
+  padding: 10px;
+  margin-top: 12px;
+  border: 1px solid #ccc;
+}
+
+.offres{
+  display: flex;
+  gap: 10px;
+}
+
+.card{
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 50%;
+}
+
+.btn{
+  background: #1f6feb;
+  color: white;
+  border: 0;
+  padding: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+input, select, textarea{
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+}
+
+label{
+  font-size: 14px;
+}
+
+.line{
+  margin-bottom: 8px;
+}
+
+footer{
+  background: #222;
+  color: white;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+footer a{
+  color: white;
+}
